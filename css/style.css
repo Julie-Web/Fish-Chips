@@ -1,0 +1,184 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #424953;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+    background-image: url(../img/fond.png);
+    line-height: 1.8;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    max-width: 1100px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #25b3b4;
+    text-align: center;
+    border-bottom: 5px solid #1b9ca2;
+    border-top: 5px solid #1b9ca2;
+    margin-top: 100px;
+}
+
+header nav a {
+    color: white;
+    font-family: 'Slabo 27px', serif;
+	font-size: 1.4em;
+    text-decoration: none;
+    margin: 15px;
+    display: inline-block;
+}
+
+/* TITRE */
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;  
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+.menu h3 {
+    font-size: 1.8em;
+}
+
+aside h2 {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+aside h3 {
+    color: #B6DFDD;
+    text-align: left;
+}
+
+/* PARAGRAPHE */
+
+.menu p {
+    margin: 15px 0;
+}
+
+aside p {
+    font-size: 0.9em;
+    margin: 0 0 15px;
+}
+
+/* LIEN */
+
+.menu a {
+    float: right;
+    background-color: #1b9ca2;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+/* SECTION */
+
+.presentation {
+    text-align: center;
+    width: 750px;
+    margin: 50px auto 0;
+}
+
+.menu {
+    background-color: #b6dfdd;
+    display: inline-block;
+    vertical-align: top;
+    width: 68%;
+    margin: 50px 2% 0 0;
+    padding: 20px;
+}
+
+/* ARTICLE */
+
+.menu article {
+    display: inline-block;
+	width: 49%;
+	vertical-align: top;
+    padding: 20px;
+} 
+
+/* IMAGE */
+
+.menu img {
+    float: left;
+    border-radius: 60px;
+    margin-right: 16px;
+}
+
+/* ASIDE */
+
+aside {
+    background-color: #25b3b4;
+	border: 5px solid #1b9ca2;
+    color: white;
+    display: inline-block;
+    padding-left: 20px;
+    width: 29%;
+    position: relative;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* SPAN */
+
+span {
+    color: #1b9ca2;
+}
+
+aside h2 span {
+    color: #B6DFDD;
+}
+
+/* ICONE */
+
+.menu i {
+    color: #25b3b4;
+    font-size: 0.8em;
+    margin: 0 5px;
+}
+
+.menu a i {
+    color: white;
+}
+
+.vignette {
+    right: -55px;
+    position: absolute;
+    top: -55px;
+}
+
+/* FOOTER */
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer p {
+    font-size: small;
+    text-align: center;
+}
